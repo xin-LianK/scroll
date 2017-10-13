@@ -1,0 +1,28 @@
+body {
+    height: 5000px;
+}
+
+#box {
+    position: fixed;
+    right: 10px;
+    top: -900px;
+    transition: top ease-in .5s;
+}
+#mask{
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left: 0;
+    margin: auto;
+    background: url('../img/ban105.jpg');
+    background-size: cover;
+}
+.down{
+    position: fixed;
+    z-index: 100;
+    color:white;
+    font-size:50px;
+    top:10%;
+    left:40%;
+}
